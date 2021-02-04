@@ -3,12 +3,14 @@
   --text-title-color: #757575;
   --link-hover-color: #2196f3;
   --second-text-color: #ffffff;
+  --btn-lb-color: #2196f3;
 }
 
 /* header */
 
 body {
   background-color: #ffffff;
+  font-family: Roboto, sans-serif;
 }
 
 /* сбрасывает маркер списка */
@@ -24,27 +26,30 @@ a {
 /* nav */
 .logo {
   color: var(--primary-text-color);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
 .logo-initial {
   color: var(--link-hover-color);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
-/* site nav */
+
+/*site nav*/
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -54,6 +59,10 @@ a {
 
 .mail-tel .link {
   color: var(--text-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .mail-tel .link:hover,
@@ -65,15 +74,26 @@ a {
 .hero {
   background-color: #2f303a;
 }
+
 .hero .title {
   color: var(--second-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
 }
 
-.button {
+.btn {
   color: var(--second-text-color);
-  background-color: var(--link-hover-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--btn-lb-color);
 }
+
 /* specialites */
 /* для скрытого заголовка*/
 .visually-hidden {
@@ -92,36 +112,66 @@ a {
 
 .specialites-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .specialites-title-text {
   color: var(--text-title-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* our work */
 .work-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* our team */
 
 .team-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team .name {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team .position {
   color: var(--text-title-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
 
 .contac {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   background-color: #2f303a;
 }
 
@@ -134,3 +184,7 @@ a {
 }
 
 /* portfolio */
+.filter {
+  color: var(--second-text-color);
+  background-color: var(--link-hover-color);
+}
