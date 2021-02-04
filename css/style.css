@@ -1,3 +1,136 @@
+:root {
+  --primary-text-color: #212121;
+  --text-title-color: #757575;
+  --link-hover-color: #2196f3;
+  --second-text-color: #ffffff;
+}
+
+/* header */
+
 body {
   background-color: #ffffff;
 }
+
+/* сбрасывает маркер списка */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+/* nav */
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-initial {
+  color: var(--link-hover-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+/* site nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--link-hover-color);
+}
+
+.mail-tel .link {
+  color: var(--text-title-color);
+}
+
+.mail-tel .link:hover,
+.mail-tel .link:focus {
+  color: var(--link-hover-color);
+}
+
+/* main */
+.hero {
+  background-color: #2f303a;
+}
+.hero .title {
+  color: var(--second-text-color);
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--second-text-color);
+  background-color: var(--link-hover-color);
+}
+/* specialites */
+/* для скрытого заголовка*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.specialites-title {
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+.specialites-title-text {
+  color: var(--text-title-color);
+}
+
+/* our work */
+.work-title {
+  color: var(--primary-text-color);
+}
+
+/* our team */
+
+.team-title {
+  color: var(--primary-text-color);
+}
+
+.team .name {
+  color: var(--primary-text-color);
+}
+
+.team .position {
+  color: var(--text-title-color);
+}
+
+/* footer */
+
+.contac {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+.contac .addres {
+  color: var(--second-text-color);
+}
+
+.logo-second {
+  color: var(--second-text-color);
+}
+
+/* portfolio */
