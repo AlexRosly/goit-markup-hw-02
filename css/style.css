@@ -169,6 +169,7 @@ a {
 .contac {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
+  font-style: initial;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -186,5 +187,30 @@ a {
 /* portfolio */
 .filter {
   color: var(--second-text-color);
-  background-color: var(--link-hover-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: var(--btn-lb-color);
+}
+
+/* .example .filter:hover,
+.example.filter:focuc {
+  color: red;
+} */
+
+.example-item {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-descript {
+  color: var(--text-title-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
