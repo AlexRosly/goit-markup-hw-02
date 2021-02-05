@@ -48,7 +48,7 @@ a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -57,11 +57,15 @@ a {
   color: var(--link-hover-color);
 }
 
+.site-nav .link.current {
+  color: var(--link-hover-color);
+}
+
 .mail-tel .link {
   color: var(--text-title-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -79,7 +83,7 @@ a {
   color: var(--second-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -89,7 +93,7 @@ a {
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.9;
   letter-spacing: 0.06em;
   background-color: var(--btn-lb-color);
 }
@@ -114,7 +118,7 @@ a {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -138,6 +142,9 @@ a {
 }
 
 /* our team */
+.team {
+  background-color: #f5f4fa;
+}
 
 .team-title {
   color: var(--primary-text-color);
@@ -152,7 +159,7 @@ a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -160,7 +167,7 @@ a {
   color: var(--text-title-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -180,6 +187,16 @@ a {
   color: var(--second-text-color);
 }
 
+.contac .addres:hover,
+.contac .addres:focus {
+  color: var(--link-hover-color);
+}
+
+.contac .info:hover,
+.contac .info:focus {
+  color: var(--link-hover-color);
+}
+
 .logo-second {
   color: var(--second-text-color);
 }
@@ -194,11 +211,6 @@ a {
   background-color: var(--btn-lb-color);
 }
 
-/* .example .filter:hover,
-.example.filter:focuc {
-  color: red;
-} */
-
 .example-item {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -211,6 +223,6 @@ a {
   color: var(--text-title-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
